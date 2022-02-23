@@ -1,14 +1,15 @@
 ---
 framework: jasmine
+preRun: 
+  command: 
+    - npm ci   
 preMerge:
   pattern:
     - "spec/**/*.js"
 postMerge:
   pattern:
-    - "spec/**/*.js"
-preRun: 
-  command: 
-    - npm ci    
+    - "spec/**/*.js" 
 postRun:
   command: 
     - echo 'Done Testing'
+version: 1.0
