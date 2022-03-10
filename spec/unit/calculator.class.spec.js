@@ -126,6 +126,12 @@ describe("Calculator Class", function() {
       let divideByZero = function() { calculator.divide(3, 0); };
       expect(divideByZero).toThrowError(RangeError, 'Divide-by-zero');
     });
+    
+    it('should should detect multiple of 3', () => {
+        const number = Math.floor(Math.random() * 10);
+        const result = number % 3;
+        verifyAnswer(result, 0);
+    });
   
   });
 
