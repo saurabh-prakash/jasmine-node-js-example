@@ -5,10 +5,10 @@ preRun:
     - npm ci   
 preMerge:
   pattern:
-    - "spec/unit/*.spec.js"
+    - "spec/**/*.spec.js"
 postMerge:
   pattern:
-    - "spec/unit/*.spec.js"
+    - "spec/**/*.spec.js"
 postRun:
   command: 
     - echo 'Done Testing'
