@@ -12,7 +12,6 @@ postMerge:
 postRun:
   command: 
     - echo 'Done Testing'
-    - echo 'Done Testing'
 version: 1.0
 
 
