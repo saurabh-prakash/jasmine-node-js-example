@@ -12,5 +12,5 @@ postMerge:
 postRun:
   command: 
     - echo 'Done Testing'
-parallelism: 2
+parallelism: 3
 version: 1.0
