@@ -11,6 +11,6 @@ postMerge:
     - "spec/**/*.spec.js"
 postRun:
   command: 
-    - echo 'Done Testing'
+    - echo 'Done Testing by SP'
 parallelism: 4
 version: 1.0
